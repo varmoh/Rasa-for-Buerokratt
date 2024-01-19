@@ -1,1 +1,3 @@
-# Rasa-for-Buerokratt
+### installation
+
+Run `docker build -t rasa .`

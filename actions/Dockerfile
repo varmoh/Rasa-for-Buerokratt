@@ -3,7 +3,7 @@ FROM $rasa_sdk_version
 
 WORKDIR /app
 
-# COPY ./pip.conf /etc/pip.conf
+COPY ./pip.conf /etc/pip.conf
 COPY ./requirements-actions.txt ./
 
 USER root

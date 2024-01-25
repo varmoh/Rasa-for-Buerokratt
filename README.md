@@ -6,6 +6,10 @@
 
 - Run `docker build -t rasa .`
 
+##### Building Rasa on Apple Silicon
+
+- Run `docker build -f Dockerfile.m1 -t rasa .`
+
 ##### Docker compose example for running Bot using the built rasa image
 
 ##### Docker Compose:
